@@ -5,9 +5,9 @@ Given a JIRA query the script will look up and calculate the total time in hours
 Make sure you have access results to the filter query before executing this script.
 
 ## How to Run
-First you need to generate a Personal Access Token in Jira.
-
-Then execute the following script.
+1. First you need to generate a Personal Access Token in Jira.
+2. Then change the constant values for the PERSONAL_TOKEN and set the url for your JIRA_SERVER in the jira-transitions.py script.
+3. Finally execute the following script.
 ```
 $ python jira-transitions.py -f <output-filename> -q <JIRA-filter-query>
 ```
